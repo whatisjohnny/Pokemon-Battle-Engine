@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokemon Battle Engine</title>
+    <script defer src="main.js"></script>
+   
+   
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pokemon Battle Engine</h1>
+    <h2 id="HP">HP: <span id="truePHP">0</span> HP: <span id="trueEHP">0</span></h2>            
+    <canvas id="my-canvas"></canvas>
+    <h1 id="PMoves">Moves</h1>
+    <h2 id="PMoves1">Tackle</h2>
+    <h2 id="PMoves2">Quick Attack</h2>
+    <h2 id="PMoves3">Leer</h2>
+ 
+   
+    <div class="dropdown">
+      <button class="dropbtn">Your Pokemon</button>
+      <div class="dropdown-content">
+        <a id="char" href="#">Charizard</a>
+        <a id="blast" href="#">Blastoise</a>
+        <a id="venus" href="#">Venusaur</a>
+      </div>
+    </div>
+    
+    <button id="lax">Spawn Enemy</button>
+    <img id="charizard" src="mons/charizard.png" style="display: none" alt="" />
+    <img id="blastoise" src="mons/blastoise.png" style="display: none" alt="" />
+    <img id="venusaur" src="mons/venusaur.png" style="display: none" alt="" />
+    <img id="snorlax" src="mons/snorlax.png" style="display: none" alt="">
+  </body>
+</html>
